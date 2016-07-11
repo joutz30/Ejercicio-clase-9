@@ -1,0 +1,102 @@
+@import "_reset";
+@import "_fuentes";
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+$color_cuerpo:#333333;
+
+.contenedor{
+	font-family: $fuente_cuerpo;
+	width: 560px;
+	height: 360px;
+	background-color: #95A5A6;
+	padding: 120px;
+	
+	article{
+		width: 100%;
+		height: 100%;
+		background-color:white;
+		text-align: center;
+		box-shadow: 2px 2px 2px  rgba(0,0,0,0.5);
+		
+		div{
+			float: left;
+			width: 49%;
+			background-color: white;
+			margin: 20px 0;
+		}
+		.perfil{
+			img{
+				border-radius: 50%;
+				border:3px solid #eeeeee;
+				box-shadow: 1px 5px 5px #cdcdcd;
+				box-sizing: border-box;
+			}
+			h1{
+				font-family: $fuente_titulos;
+				text-transform: uppercase;
+				font-weight: bold;
+				color: #e74c57;
+				margin-top: 20px;
+			}
+			h3{
+				font-size: 12px;
+				color: $color_cuerpo;
+				margin: 6px 0;
+			}
+			.linea{
+				display: block;
+				background-color: #DBDBDB;
+				width: 150px;
+				height: 2px;
+				position: relative;
+				left: 60px;
+			}
+			.social{
+				margin-top: 15px;
+				li{
+					display: inline-block;
+
+					span{
+						background-color: gray;
+						color: white;
+						font-size: 12px;
+						border: 1px solid white;
+						width: 20px;
+						height: 20px;
+						display: inline-block;
+						border-radius: 50%;
+						text-align: center;
+						padding-top: 3px;
+					    box-sizing: border-box;
+					    margin: 0 6px;	
+					}
+				}
+			}
+		}
+		.texto{
+			p{
+				text-align: left;
+				color: $color_cuerpo;
+				font-size: 13px;
+				line-height: 1.5;
+				padding: 0 20px;
+				margin:10px 0;
+			}
+			a{
+				display: inline-block;
+				text-decoration: none;
+				font-family: $fuente_titulos;
+				font-size: 14px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: white;
+				background-color: #1ABC9C;
+				border: 1px solid #1ABC9C;
+				padding: 10px 40px;
+				margin: 13px 0;
+				border-radius: 5%;
+				box-shadow: 0px 3px 0px #1f947d;
+			}
+		}
+	}
+}
+/*1ABC9C DBDBDB E74C57*/
